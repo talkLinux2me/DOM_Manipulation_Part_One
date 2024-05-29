@@ -15,3 +15,8 @@ mainEl.appendChild(h1);
 
 //add a class name to a html element
 mainEl.classList.add("flex-ctr");
+
+const topMenuEl = document.querySelector("#top-menu");
+
+//set the height to 100%
+topMenuEl.style.height = "100%"
