@@ -20,3 +20,6 @@ const topMenuEl = document.querySelector("#top-menu");
 
 //set the height to 100%
 topMenuEl.style.height = "100%"
+
+topMenuEl.style.backgroundColor = "var(--top-menu-bg)";
+topMenuEl.classList.add("flex-around");
